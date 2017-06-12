@@ -57,7 +57,7 @@
             // 
             this.lblSendersEmail.AutoSize = true;
             this.lblSendersEmail.BackColor = System.Drawing.Color.Transparent;
-            this.lblSendersEmail.Location = new System.Drawing.Point(38, 106);
+            this.lblSendersEmail.Location = new System.Drawing.Point(24, 106);
             this.lblSendersEmail.Name = "lblSendersEmail";
             this.lblSendersEmail.Size = new System.Drawing.Size(115, 13);
             this.lblSendersEmail.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.lblReceiverEmail.AutoSize = true;
             this.lblReceiverEmail.BackColor = System.Drawing.Color.Transparent;
-            this.lblReceiverEmail.Location = new System.Drawing.Point(38, 147);
+            this.lblReceiverEmail.Location = new System.Drawing.Point(24, 147);
             this.lblReceiverEmail.Name = "lblReceiverEmail";
             this.lblReceiverEmail.Size = new System.Drawing.Size(124, 13);
             this.lblReceiverEmail.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             this.lblSubject.AutoSize = true;
             this.lblSubject.BackColor = System.Drawing.Color.Transparent;
-            this.lblSubject.Location = new System.Drawing.Point(38, 183);
+            this.lblSubject.Location = new System.Drawing.Point(24, 183);
             this.lblSubject.Name = "lblSubject";
             this.lblSubject.Size = new System.Drawing.Size(43, 13);
             this.lblSubject.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             this.lblEmailBody.AutoSize = true;
             this.lblEmailBody.BackColor = System.Drawing.Color.Transparent;
-            this.lblEmailBody.Location = new System.Drawing.Point(38, 221);
+            this.lblEmailBody.Location = new System.Drawing.Point(24, 221);
             this.lblEmailBody.Name = "lblEmailBody";
             this.lblEmailBody.Size = new System.Drawing.Size(50, 13);
             this.lblEmailBody.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(41, 265);
+            this.btnSend.Location = new System.Drawing.Point(27, 265);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(75, 23);
             this.btnSend.TabIndex = 5;
@@ -104,7 +104,7 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(127, 265);
+            this.btnReset.Location = new System.Drawing.Point(122, 265);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 6;
@@ -113,30 +113,30 @@
             // 
             // txtReceiverMail
             // 
-            this.txtReceiverMail.Location = new System.Drawing.Point(184, 144);
+            this.txtReceiverMail.Location = new System.Drawing.Point(170, 144);
             this.txtReceiverMail.Name = "txtReceiverMail";
-            this.txtReceiverMail.Size = new System.Drawing.Size(130, 20);
+            this.txtReceiverMail.Size = new System.Drawing.Size(153, 20);
             this.txtReceiverMail.TabIndex = 8;
             // 
             // txtMessage
             // 
-            this.txtMessage.Location = new System.Drawing.Point(184, 218);
+            this.txtMessage.Location = new System.Drawing.Point(170, 218);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(130, 20);
+            this.txtMessage.Size = new System.Drawing.Size(153, 20);
             this.txtMessage.TabIndex = 9;
             // 
             // txtSubject
             // 
-            this.txtSubject.Location = new System.Drawing.Point(184, 180);
+            this.txtSubject.Location = new System.Drawing.Point(170, 180);
             this.txtSubject.Name = "txtSubject";
-            this.txtSubject.Size = new System.Drawing.Size(130, 20);
+            this.txtSubject.Size = new System.Drawing.Size(153, 20);
             this.txtSubject.TabIndex = 10;
             // 
             // txtSenderMail
             // 
-            this.txtSenderMail.Location = new System.Drawing.Point(184, 103);
+            this.txtSenderMail.Location = new System.Drawing.Point(170, 103);
             this.txtSenderMail.Name = "txtSenderMail";
-            this.txtSenderMail.Size = new System.Drawing.Size(130, 20);
+            this.txtSenderMail.Size = new System.Drawing.Size(153, 20);
             this.txtSenderMail.TabIndex = 11;
             this.txtSenderMail.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
