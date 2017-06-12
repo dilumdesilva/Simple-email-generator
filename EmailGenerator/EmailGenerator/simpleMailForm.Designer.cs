@@ -29,138 +29,146 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(simpleMailForm));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblHeader = new System.Windows.Forms.Label();
+            this.lblSendersEmail = new System.Windows.Forms.Label();
+            this.lblReceiverEmail = new System.Windows.Forms.Label();
+            this.lblSubject = new System.Windows.Forms.Label();
+            this.lblEmailBody = new System.Windows.Forms.Label();
+            this.btnSend = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.txtReceiverMail = new System.Windows.Forms.TextBox();
+            this.txtMessage = new System.Windows.Forms.TextBox();
+            this.txtSubject = new System.Windows.Forms.TextBox();
+            this.txtSenderMail = new System.Windows.Forms.TextBox();
+            this.lblcopyright = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lblHeader
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(178, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblHeader.AutoSize = true;
+            this.lblHeader.BackColor = System.Drawing.Color.Transparent;
+            this.lblHeader.Location = new System.Drawing.Point(119, 38);
+            this.lblHeader.Name = "lblHeader";
+            this.lblHeader.Size = new System.Drawing.Size(100, 13);
+            this.lblHeader.TabIndex = 0;
+            this.lblHeader.Text = "DMS mail generator";
             // 
-            // label2
+            // lblSendersEmail
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(61, 99);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblSendersEmail.AutoSize = true;
+            this.lblSendersEmail.BackColor = System.Drawing.Color.Transparent;
+            this.lblSendersEmail.Location = new System.Drawing.Point(38, 106);
+            this.lblSendersEmail.Name = "lblSendersEmail";
+            this.lblSendersEmail.Size = new System.Drawing.Size(115, 13);
+            this.lblSendersEmail.TabIndex = 1;
+            this.lblSendersEmail.Text = "Sender\'s email address";
             // 
-            // label3
+            // lblReceiverEmail
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(64, 143);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblReceiverEmail.AutoSize = true;
+            this.lblReceiverEmail.BackColor = System.Drawing.Color.Transparent;
+            this.lblReceiverEmail.Location = new System.Drawing.Point(38, 147);
+            this.lblReceiverEmail.Name = "lblReceiverEmail";
+            this.lblReceiverEmail.Size = new System.Drawing.Size(124, 13);
+            this.lblReceiverEmail.TabIndex = 2;
+            this.lblReceiverEmail.Text = "Receiver\'s email address";
             // 
-            // label4
+            // lblSubject
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(69, 185);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lblSubject.AutoSize = true;
+            this.lblSubject.BackColor = System.Drawing.Color.Transparent;
+            this.lblSubject.Location = new System.Drawing.Point(38, 183);
+            this.lblSubject.Name = "lblSubject";
+            this.lblSubject.Size = new System.Drawing.Size(43, 13);
+            this.lblSubject.TabIndex = 3;
+            this.lblSubject.Text = "Subject";
             // 
-            // label5
+            // lblEmailBody
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(77, 230);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lblEmailBody.AutoSize = true;
+            this.lblEmailBody.BackColor = System.Drawing.Color.Transparent;
+            this.lblEmailBody.Location = new System.Drawing.Point(38, 221);
+            this.lblEmailBody.Name = "lblEmailBody";
+            this.lblEmailBody.Size = new System.Drawing.Size(50, 13);
+            this.lblEmailBody.TabIndex = 4;
+            this.lblEmailBody.Text = "Message";
             // 
-            // button1
+            // btnSend
             // 
-            this.button1.Location = new System.Drawing.Point(187, 264);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSend.Location = new System.Drawing.Point(41, 265);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(75, 23);
+            this.btnSend.TabIndex = 5;
+            this.btnSend.Text = "Send";
+            this.btnSend.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnReset
             // 
-            this.button2.Location = new System.Drawing.Point(272, 233);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnReset.Location = new System.Drawing.Point(127, 265);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 6;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // txtReceiverMail
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(184, 333);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "label6";
+            this.txtReceiverMail.Location = new System.Drawing.Point(184, 144);
+            this.txtReceiverMail.Name = "txtReceiverMail";
+            this.txtReceiverMail.Size = new System.Drawing.Size(130, 20);
+            this.txtReceiverMail.TabIndex = 8;
             // 
-            // textBox1
+            // txtMessage
             // 
-            this.textBox1.Location = new System.Drawing.Point(196, 112);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
+            this.txtMessage.Location = new System.Drawing.Point(184, 218);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(130, 20);
+            this.txtMessage.TabIndex = 9;
             // 
-            // textBox2
+            // txtSubject
             // 
-            this.textBox2.Location = new System.Drawing.Point(221, 193);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
+            this.txtSubject.Location = new System.Drawing.Point(184, 180);
+            this.txtSubject.Name = "txtSubject";
+            this.txtSubject.Size = new System.Drawing.Size(130, 20);
+            this.txtSubject.TabIndex = 10;
             // 
-            // textBox3
+            // txtSenderMail
             // 
-            this.textBox3.Location = new System.Drawing.Point(221, 167);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 10;
+            this.txtSenderMail.Location = new System.Drawing.Point(184, 103);
+            this.txtSenderMail.Name = "txtSenderMail";
+            this.txtSenderMail.Size = new System.Drawing.Size(130, 20);
+            this.txtSenderMail.TabIndex = 11;
+            this.txtSenderMail.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox4
+            // lblcopyright
             // 
-            this.textBox4.Location = new System.Drawing.Point(221, 75);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 11;
+            this.lblcopyright.AutoSize = true;
+            this.lblcopyright.BackColor = System.Drawing.Color.Transparent;
+            this.lblcopyright.Font = new System.Drawing.Font("Copperplate Gothic Bold", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcopyright.Location = new System.Drawing.Point(142, 325);
+            this.lblcopyright.Name = "lblcopyright";
+            this.lblcopyright.Size = new System.Drawing.Size(60, 9);
+            this.lblcopyright.TabIndex = 12;
+            this.lblcopyright.Text = "DMS c 2017";
             // 
             // simpleMailForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(429, 355);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(354, 341);
+            this.Controls.Add(this.lblcopyright);
+            this.Controls.Add(this.txtSenderMail);
+            this.Controls.Add(this.txtSubject);
+            this.Controls.Add(this.txtMessage);
+            this.Controls.Add(this.txtReceiverMail);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnSend);
+            this.Controls.Add(this.lblEmailBody);
+            this.Controls.Add(this.lblSubject);
+            this.Controls.Add(this.lblReceiverEmail);
+            this.Controls.Add(this.lblSendersEmail);
+            this.Controls.Add(this.lblHeader);
             this.Name = "simpleMailForm";
             this.Text = "simpleMailForm";
             this.ResumeLayout(false);
@@ -170,17 +178,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label lblHeader;
+        private System.Windows.Forms.Label lblSendersEmail;
+        private System.Windows.Forms.Label lblReceiverEmail;
+        private System.Windows.Forms.Label lblSubject;
+        private System.Windows.Forms.Label lblEmailBody;
+        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.TextBox txtReceiverMail;
+        private System.Windows.Forms.TextBox txtMessage;
+        private System.Windows.Forms.TextBox txtSubject;
+        private System.Windows.Forms.TextBox txtSenderMail;
+        private System.Windows.Forms.Label lblcopyright;
     }
 }
