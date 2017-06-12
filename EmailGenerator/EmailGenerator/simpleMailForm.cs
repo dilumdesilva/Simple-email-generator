@@ -21,5 +21,10 @@ namespace EmailGenerator
         {
 
         }
+
+        private void lblSubject_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
