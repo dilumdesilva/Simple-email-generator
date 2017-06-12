@@ -26,5 +26,23 @@ namespace EmailGenerator
         {
 
         }
+
+        public void emailSender()
+        {
+
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                emailSender();
+            }
+            catch (Exception ex)
+            {
+                //if there is any exception this will show the error message.
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
