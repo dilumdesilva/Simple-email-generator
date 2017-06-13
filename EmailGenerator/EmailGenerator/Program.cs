@@ -16,7 +16,7 @@ namespace EmailGenerator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new simpleMailForm());
+            Application.Run(new aboutMe());
         }
     }
 }

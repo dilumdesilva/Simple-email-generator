@@ -139,6 +139,11 @@ namespace EmailGenerator
         {
 
         }
+
+        private void lblSendersEmail_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EmailGenerator
 {
-    public partial class mailWithAnAttchmentForm : Form
+    public partial class mainForm : Form
     {
-        public mailWithAnAttchmentForm()
+        public mainForm()
         {
             InitializeComponent();
         }
