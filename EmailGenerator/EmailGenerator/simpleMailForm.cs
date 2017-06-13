@@ -39,10 +39,9 @@ namespace EmailGenerator
 
         //the method which handle the all functions realated to email sending procedure.
         public void emailSender()
-        {   
+        {
             //in here i'm assinging the values of the textboxes to string variables for further use. 
-            string sender = txtSenderMail.Text;
-            string password = txtSenderPW.Text;
+            string sender = "emailclientv1.0@gmail.com";
             string receiver = txtReceiverMail.Text;
             string message = txtMessage.Text;
             string subject = txtSubject.Text;
@@ -70,7 +69,7 @@ namespace EmailGenerator
                 SmtpServer.Port = 587;
 
                 //giving the user credentials of senders email acount.
-                SmtpServer.Credentials = new System.Net.NetworkCredential(sender, password);
+                SmtpServer.Credentials = new System.Net.NetworkCredential("emailclientv1.0@gmail.com", "emailclient123");
                
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(mail);
