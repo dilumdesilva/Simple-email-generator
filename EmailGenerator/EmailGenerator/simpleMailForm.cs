@@ -129,6 +129,16 @@ namespace EmailGenerator
             //txtEmpDesignation.Text = "";
             //cmbDept.SelectedIndex = -1;
         }
+
+        private void lblcopyright_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleMailForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
@@ -136,3 +146,4 @@ namespace EmailGenerator
 
 
 //Code by Dilum De Silva.
+
