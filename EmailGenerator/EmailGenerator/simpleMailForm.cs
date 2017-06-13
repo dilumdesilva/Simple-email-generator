@@ -60,6 +60,7 @@ namespace EmailGenerator
                 //mail.Subject = "Test Mail";
                 //mail.Body = "This is for testing SMTP mail from GMAIL";
 
+
                 mail.From = new MailAddress(sender);
                 mail.To.Add(receiver);
                 mail.Subject = subject;
