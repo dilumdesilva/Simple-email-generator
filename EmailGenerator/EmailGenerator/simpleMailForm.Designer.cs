@@ -45,6 +45,7 @@
             this.lblSenderPW = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblReceiverEmail = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,7 +173,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(42, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(36, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(381, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -190,12 +191,24 @@
             this.lblReceiverEmail.TabIndex = 2;
             this.lblReceiverEmail.Text = "Receiver\'s email address";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(403, 74);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 7);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "V1.0";
+            // 
             // simpleMailForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(491, 470);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSenderPW);
             this.Controls.Add(this.txtSenderPW);
@@ -236,5 +249,6 @@
         private System.Windows.Forms.Label lblSenderPW;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblReceiverEmail;
+        private System.Windows.Forms.Label label1;
     }
 }

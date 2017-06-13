@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace EmailGenerator
 {
     public partial class mainForm : Form
@@ -15,6 +16,20 @@ namespace EmailGenerator
         public mainForm()
         {
             InitializeComponent();
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            aboutMe objaboutMe = new aboutMe();
+            objaboutMe.Show();
+
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            simpleMailForm objsimpleMailForm = new simpleMailForm();
+            objsimpleMailForm.Show();
+            this.Hide();
         }
     }
 }
